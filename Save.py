@@ -12,11 +12,9 @@ def download_video():
         label.config(text="Произошла ошибка при загрузке видео:", fg="red")
         print(str(e))
 
-# Создаем окно
 root = tk.Tk()
 root.title("Скачивание видео с YouTube")
 
-# Добавляем элементы интерфейса
 label = tk.Label(root, text="Введите ссылку на видео YouTube:")
 label.pack()
 
